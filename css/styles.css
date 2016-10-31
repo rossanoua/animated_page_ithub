@@ -1,14 +1,85 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #fff;
+    background-color: #c5c5c5;
+    font-family: 'Ubuntu', sans-serif;
 }
 
-.main {
-    background: url(../img/background_header.png) no-repeat 0 0;
-    background-size: contain;
-    width: 100%;
-    height: 500px;
-    margin: 0;
-    padding: 0;
+.wrapper{
+    margin: 0 auto;
+    width:1000px;
+    min-width: 1000px;
+    overflow: visible;
+}
+
+header {
+    position: relative;
+}
+
+#headerimg{
+    background-color: #fff;
+    position: relative;
+    top:0;
+    left:-50%;
+}
+
+.container {
+    position: relative;
+    top: -595px;
+}
+
+.head {
+    position: relative;
+    top: 0;
+    max-height: 90px;
+}
+
+.bgnavimg {
+    position: relative;
+    top: 0;
+    left: -35px;
+    width: 1060px;
+    height: 110px;
+}
+
+.logo {
+    position: relative;
+    top: -87px;
+    left: 18px;
+    width: 301px;
+    height: 50px;
+}
+
+.head address {
+    position: relative;
+    top: -150px;
+    left: 800px;
+    width: 190px;
+    color: #F0047F;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.head address:before {
+    content: url(../img/handset.png);
+    margin: 0 3px 0 0;
+}
+
+.head nav {
+    position: relative;
+    top: -150px;
+    left: 310px;
+    width: 680px;
+}
+
+.head nav ul{
+    list-style-type: none;
+}
+
+.head nav ul li {
+    display: inline;
+    text-transform: uppercase;
+    color: #5b5959;
+    font-size:14px;
 }
