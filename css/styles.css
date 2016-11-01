@@ -273,7 +273,7 @@ header {
     height: 82px;
     color: #336699;
     left: 260px;
-    animation: citation 5s ease 1;
+    animation: citation 2s ease 1;
     animation-delay: 0s;
     animation-fill-mode: forwards;
 }
@@ -308,7 +308,7 @@ header {
     width: 560px;
     height: 65px;
     background-size: contain;
-    animation: our_services 5s ease 1;
+    animation: our_services 2s ease 1;
     animation-delay: 0s;
     animation-fill-mode: forwards;
 }
@@ -334,3 +334,31 @@ header {
 
 
 /*END bottom header section styles*/
+
+
+/*START styles for div facebook*/
+
+.facebook{
+    position: absolute;
+    top: 142px;
+    left: 1000px;
+    background: rgba(0, 0, 0, 0) url("../img/fb_background.png") no-repeat scroll 0 0 / contain;
+    /*background-size: contain;*/
+    height: 67px;
+    width: 60px;
+}
+
+.facebook_yeh{
+    visibility: hidden;
+    position: absolute;
+    top: 142px;
+    left: 1000px;
+    background: url("../img/fb_finish.png") no-repeat 0 0;
+    background-size: contain;
+    height: 67px;
+    width: 159px;
+}
+
+
+
+/*END styles for div facebook*/
