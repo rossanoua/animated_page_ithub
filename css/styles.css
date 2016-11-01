@@ -3,6 +3,7 @@ body{
     padding: 0;
     background-color: #c5c5c5;
     font-family: 'Ubuntu', sans-serif;
+    overflow-x: hidden;
 }
 
 .wrapper{
@@ -50,7 +51,7 @@ header {
     height: 50px;
 }
 
-.head address {
+.head address{
     position: relative;
     top: -150px;
     left: 800px;
@@ -73,13 +74,187 @@ header {
     width: 680px;
 }
 
-.head nav ul{
+.head nav ul {
     list-style-type: none;
+    padding: 0 0 0 30px;
 }
 
 .head nav ul li {
     display: inline;
     text-transform: uppercase;
     color: #5b5959;
-    font-size:14px;
+    font-size: 13px;
+    margin: 0 15px 0 0;
 }
+
+.head nav ul li:last-child{
+    margin: 0;
+}
+
+.head nav ul li a{
+    text-decoration: none;
+    color: #5b5959;
+}
+
+
+/*END styles for animated section in the header*/
+
+@import "keyframes.css";
+
+.work_team {
+    display: block;
+    position: absolute;
+    left: 149px;
+    top: 152px;
+    background-color: transparent;
+    width: 638px;
+    height: 300px;
+}
+
+.people{
+    position: relative;
+    background: rgba(0, 0, 0, 0) url("../img/work_team/people.png") no-repeat scroll 0 0 / contain;
+    background-size: contain;
+    width: 638px;
+    height: 300px;
+    z-index: 100;
+}
+
+.hand_with_coffee{
+    position: relative;
+    top: -195px;
+    left: 83px;
+    background: rgba(0, 0, 0, 0) url("../img/work_team/hand_with_coffee.png") no-repeat scroll 0 0;
+    width:62px;
+    height: 65px;
+    z-index: 5;
+    /*animation: hand_with_coffee 4s ease infinite;*/
+    /*animation-fill-mode: forwards;*/
+    /*animation-delay: 0s;*/
+}
+
+.some_very_important_document{
+    position: relative;
+    top: -279px;
+    left: 129px;
+    background: rgba(0, 0, 0, 0) url("../img/work_team/some_very_important_document.png") no-repeat scroll 0 0;
+    width: 41px;
+    height: 36px;
+    z-index: 3;
+    /*animation: hand_with_coffee 4s ease infinite;*/
+    /*animation-fill-mode: forwards;*/
+    /*animation-delay: 0s;*/
+}
+
+.blue_head{
+    position: relative;
+    top: -336px;
+    left: 439px;
+    background: rgba(0, 0, 0, 0) url("../img/work_team/blue_head.png") no-repeat scroll 0 0;
+    width: 46px;
+    height: 46px;
+    z-index: 166;
+    /*animation: hand_with_coffee 4s ease infinite;*/
+    /*animation-fill-mode: forwards;*/
+    /*animation-delay: 0s;*/
+}
+
+.right_green_hand{
+    position: relative;
+    top: -340px;
+    left: 226px;
+    background: rgba(0, 0, 0, 0) url("../img/work_team/right_green_hand.png") no-repeat scroll 0 0;
+    width: 20px;
+    height: 68px;
+    /*animation: hand_with_coffee 4s ease infinite;*/
+    /*animation-fill-mode: forwards;*/
+    /*animation-delay: 0s;*/
+}
+
+.left_green_hand{
+    position: relative;
+    top: -408px;
+    left: 300px;
+    background: rgba(0, 0, 0, 0) url("../img/work_team/left_green_hand.png") no-repeat scroll 0 0;
+    width: 22px;
+    height: 71px;
+    z-index: 11;
+    /*animation: hand_with_coffee 4s ease infinite;*/
+    /*animation-fill-mode: forwards;*/
+    /*animation-delay: 0s;*/
+}
+
+.girl_right_hand{
+    position: relative;
+    top: -526px;
+    left: 298px;
+    background: rgba(0, 0, 0, 0) url("../img/work_team/girl_right_hand.png") no-repeat scroll 0 0;
+    width: 34px;
+    height: 59px;
+    z-index: 9;
+    /*animation: hand_with_coffee 4s ease infinite;*/
+    /*animation-fill-mode: forwards;*/
+    /*animation-delay: 0s;*/
+}
+
+.right_red_hand{
+    position: relative;
+    top: -541px;
+    left: 405px;
+    background: rgba(0, 0, 0, 0) url("../img/work_team/right_red_hand.png") no-repeat scroll 0 0;
+    width: 20px;
+    height: 67px;
+    /*animation: hand_with_coffee 4s ease infinite;*/
+    /*animation-fill-mode: forwards;*/
+    /*animation-delay: 0s;*/
+}
+
+.rufous_head{
+    position: relative;
+    top: -742px;
+    left: 197px;
+    background: rgba(0, 0, 0, 0) url("../img/work_team/rufous_head.png") no-repeat scroll 0 0;
+    width: 45px;
+    height: 53px;
+    /*animation: hand_with_coffee 4s ease infinite;*/
+    /*animation-fill-mode: forwards;*/
+    /*animation-delay: 0s;*/
+}
+
+.first_hand_right_programmer{
+    position: relative;
+    top: -614px;
+    left: 527px;
+    background: rgba(0, 0, 0, 0) url("../img/work_team/hand_right_programmer.png") no-repeat scroll 0 0;
+    width:62px;
+    height: 13px;
+    /*animation: hand_with_coffee 4s ease infinite;*/
+    /*animation-fill-mode: forwards;*/
+    /*animation-delay: 0s;*/
+}
+
+.second_hand_right_programmer{
+    position: relative;
+    top: -627px;
+    left: 526px;
+    background: rgba(0, 0, 0, 0) url("../img/work_team/hand_right_programmer.png") no-repeat scroll 0 0;
+    width:62px;
+    height: 13px;
+    /*animation: hand_with_coffee 4s ease infinite;*/
+    /*animation-fill-mode: forwards;*/
+    /*animation-delay: 0s;*/
+}
+
+.leg{
+    position: relative;
+    top: -595px;
+    left: 547px;
+    background: rgba(0, 0, 0, 0) url("../img/work_team/leg.png") no-repeat scroll 0 0;
+    width: 54px;
+    height: 95px;
+    /*animation: hand_with_coffee 4s ease infinite;*/
+    /*animation-fill-mode: forwards;*/
+    /*animation-delay: 0s;*/
+}
+
+/*END styles for animated section in the header*/
