@@ -222,12 +222,14 @@ header {
 .first_hand_right_programmer{
     position: relative;
     top: -614px;
-    left: 527px;
+    left: 530px;
     background: rgba(0, 0, 0, 0) url("../img/work_team/hand_right_programmer.png") no-repeat scroll 0 0;
     width:62px;
     height: 13px;
-    /*animation: hand_with_coffee 4s ease infinite;*/
-    /*animation-delay: 0s;*/
+    transform: rotate(0deg) rotateY(4deg);
+    transform-origin: 62px -9px 0;
+    animation: first_hand_right_programmer 5s linear infinite;
+    animation-delay: 0s;
 }
 
 .second_hand_right_programmer{
@@ -237,8 +239,10 @@ header {
     background: rgba(0, 0, 0, 0) url("../img/work_team/hand_right_programmer.png") no-repeat scroll 0 0;
     width:62px;
     height: 13px;
-    /*animation: hand_with_coffee 4s ease infinite;*/
-    /*animation-delay: 0s;*/
+    transform: rotate(0deg) rotateY(4deg);
+    transform-origin: 62px -9px 0;
+    animation: second_hand_right_programmer 6s linear infinite;
+    animation-delay: 0s;
 }
 
 .leg{
