@@ -195,14 +195,15 @@ header {
 
 .right_red_hand{
     position: relative;
-    top: -548px;
-    left: 405px;
+    top: -549px;
+    left: 406px;
     background: rgba(0, 0, 0, 0) url("../img/work_team/right_red_hand.png") no-repeat scroll 0 0;
     width: 20px;
     height: 67px;
-    /*animation: hand_with_coffee 4s ease infinite;*/
-    /*animation-fill-mode: forwards;*/
-    /*animation-delay: 0s;*/
+    transform: rotate(3deg);
+    transform-origin: 13px 3px 0px;
+    animation: right_red_hand 12s ease infinite;
+    animation-delay: 0s;
 }
 
 .blue_head{
@@ -213,9 +214,9 @@ header {
     width: 46px;
     height: 46px;
     z-index: 166;
-    /*animation: hand_with_coffee 4s ease infinite;*/
-    /*animation-fill-mode: forwards;*/
-    /*animation-delay: 0s;*/
+    transform-origin: 13px 25px 0;
+    animation: blue_head 9s ease infinite;
+    animation-delay: 0s;
 }
 
 .first_hand_right_programmer{
@@ -226,7 +227,6 @@ header {
     width:62px;
     height: 13px;
     /*animation: hand_with_coffee 4s ease infinite;*/
-    /*animation-fill-mode: forwards;*/
     /*animation-delay: 0s;*/
 }
 
@@ -238,7 +238,6 @@ header {
     width:62px;
     height: 13px;
     /*animation: hand_with_coffee 4s ease infinite;*/
-    /*animation-fill-mode: forwards;*/
     /*animation-delay: 0s;*/
 }
 
@@ -250,7 +249,6 @@ header {
     width: 54px;
     height: 95px;
     /*animation: hand_with_coffee 4s ease infinite;*/
-    /*animation-fill-mode: forwards;*/
     /*animation-delay: 0s;*/
 }
 
