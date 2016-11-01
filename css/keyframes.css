@@ -12,12 +12,59 @@
     100%{transform: rotateY(0deg);}
 }
 
-
-
-
-@keyframes blue_head {
-    0%{transform: rotateY(0deg);}
-    75%{transform: rotateY(0deg);}
-    90%{transform: rotateY(35deg);}
-    100%{transform: rotateY(0deg);}
+@keyframes rufous_head {
+    0%{transform: rotate(0deg);}
+    75%{transform: rotate(0deg);}
+    90%{transform: rotate(11deg);}
+    100%{transform: rotate(0deg);}
 }
+
+@keyframes right_green_hand {
+   0%{ transform: rotateX(0deg);}
+   10%{ transform: rotateX(0deg);}
+   12%{ transform: rotateX(19deg);}
+   14%{ transform: rotateX(0deg);}
+   39%{ transform: rotateX(0deg);}
+   43%{ transform: rotateX(19deg);}
+   47%{ transform: rotateX(0deg);}
+   52%{ transform: rotateX(0deg);}
+   53%{ transform: rotateX(19deg);}
+   55%{ transform: rotateX(0deg);}
+   68%{ transform: rotateX(0deg);}
+   71%{ transform: rotateX(19deg);}
+   73%{ transform: rotateX(0deg);}
+   93%{ transform: rotateX(0deg);}
+   95%{ transform: rotateX(19deg);}
+   97%{ transform: rotateX(0deg);}
+   100%{ transform: rotateX(0deg);}
+}
+
+@keyframes left_green_hand {
+    0%{ transform: rotateX(19deg);}
+    10%{ transform: rotateX(19deg);}
+    12%{ transform: rotateX(30deg);}
+    14%{ transform: rotateX(19deg);}
+    39%{ transform: rotateX(19deg);}
+    43%{ transform: rotateX(30deg);}
+    47%{ transform: rotateX(19deg);}
+    52%{ transform: rotateX(19deg);}
+    53%{ transform: rotateX(30deg);}
+    55%{ transform: rotateX(19deg);}
+    68%{ transform: rotateX(19deg);}
+    71%{ transform: rotateX(30deg);}
+    73%{ transform: rotateX(19deg);}
+    93%{ transform: rotateX(19deg);}
+    95%{ transform: rotateX(30deg);}
+    97%{ transform: rotateX(19deg);}
+    100%{ transform: rotateX(19deg);}
+}
+
+@keyframes girl_right_hand {
+    0%{transform: rotate(0deg);}
+    20%{transform: rotate(15deg);}
+    40%{transform: rotate(0deg);}
+    60%{transform: rotate(15deg);}
+    80%{transform: rotate(0deg);}
+    100%{transform: rotate(0deg);}
+}
+

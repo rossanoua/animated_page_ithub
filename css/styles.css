@@ -152,52 +152,50 @@ header {
     background: rgba(0, 0, 0, 0) url("../img/work_team/rufous_head.png") no-repeat scroll 0 0;
     width: 45px;
     height: 53px;
-    /*animation: hand_with_coffee 4s ease infinite;*/
-    /*animation-fill-mode: forwards;*/
-    /*animation-delay: 0s;*/
+    animation: rufous_head 19s ease infinite;
+    animation-delay: 2s;
 }
 
 .right_green_hand{
     position: relative;
-    top: -340px;
+    top: -349px;
     left: 226px;
     background: rgba(0, 0, 0, 0) url("../img/work_team/right_green_hand.png") no-repeat scroll 0 0;
     width: 20px;
     height: 68px;
-    /*animation: hand_with_coffee 4s ease infinite;*/
-    /*animation-fill-mode: forwards;*/
-    /*animation-delay: 0s;*/
+    transform-origin: 0 0 0;
+    animation: right_green_hand 5s ease infinite;
 }
 
 .left_green_hand{
     position: relative;
-    top: -408px;
+    top: -415px;
     left: 300px;
     background: rgba(0, 0, 0, 0) url("../img/work_team/left_green_hand.png") no-repeat scroll 0 0;
     width: 22px;
     height: 71px;
     z-index: 11;
-    /*animation: hand_with_coffee 4s ease infinite;*/
-    /*animation-fill-mode: forwards;*/
-    /*animation-delay: 0s;*/
+    transform: rotateX(19deg);
+    transform-origin: 0 0 0;
+    animation: left_green_hand 4s ease infinite;
 }
 
 .girl_right_hand{
     position: relative;
-    top: -526px;
+    top: -533px;
     left: 298px;
     background: rgba(0, 0, 0, 0) url("../img/work_team/girl_right_hand.png") no-repeat scroll 0 0;
     width: 34px;
     height: 59px;
     z-index: 9;
-    /*animation: hand_with_coffee 4s ease infinite;*/
-    /*animation-fill-mode: forwards;*/
-    /*animation-delay: 0s;*/
+    transform-origin: 32px 8px -4px;
+    animation: girl_right_hand 9s ease infinite;
+    animation-delay: 0s;
 }
 
 .right_red_hand{
     position: relative;
-    top: -541px;
+    top: -548px;
     left: 405px;
     background: rgba(0, 0, 0, 0) url("../img/work_team/right_red_hand.png") no-repeat scroll 0 0;
     width: 20px;
