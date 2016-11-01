@@ -3,7 +3,8 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #c5c5c5;
+    /*background-color: #c5c5c5;*/
+    background-color: #fff;
     font-family: 'Ubuntu', sans-serif;
     overflow-x: hidden;
 }
@@ -261,3 +262,75 @@ header {
 /*END styles for animated section in the header*/
 
 
+/*START bottom header section styles*/
+
+.citation{
+    position: absolute;
+    top: 477px;
+    background: url("../img/section_for_citation.png") no-repeat 0 0;
+    background-size: contain;
+    width: 735px;
+    height: 82px;
+    color: #336699;
+    left: 260px;
+    animation: citation 5s ease 1;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+}
+
+.citation p{
+    margin: 29px 53px;
+    font-size: 19px;
+}
+
+.citation p>span{
+    font-weight:bold;
+}
+
+.citation p>span:last-child{
+    display: block;
+    margin:20px 0 0;
+    color: white;
+}
+
+.citation p > span:last-child {
+    float: right;
+    font-weight: normal;
+    margin: 20px 0 0;
+
+}
+
+.our_services{
+    position: absolute;
+    top: 554px;
+    left: 29px;
+    background: url("../img/first_blue_button_background.png") no-repeat 0 0;
+    width: 560px;
+    height: 65px;
+    background-size: contain;
+    animation: our_services 5s ease 1;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+}
+
+.our_services p{
+    margin: 11px 0 0 80px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 31px;
+}
+
+.our_services p:before{
+    content: url("../img/wrench.png");
+    width:40px;
+    height:20px;
+}
+
+.our_services p::before {
+    display: block;
+    float: left;
+    margin: 0 46px 0 12px;
+}
+
+
+/*END bottom header section styles*/
