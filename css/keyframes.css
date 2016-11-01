@@ -113,3 +113,11 @@
     70%{transform: rotate(6deg) rotateY(4deg);left: 530px;}
     100%{transform: rotate(-4deg) rotateY(4deg);left: 530px;}
 }
+
+@keyframes leg {
+    0%{transform: rotate(0deg);}
+    25%{transform: rotate(5deg);}
+    50%{transform: rotate(0deg);}
+    75%{transform: rotate(5deg);}
+    100%{transform: rotate(0deg);}
+}

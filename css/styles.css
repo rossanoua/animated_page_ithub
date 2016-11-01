@@ -252,8 +252,12 @@ header {
     background: rgba(0, 0, 0, 0) url("../img/work_team/leg.png") no-repeat scroll 0 0;
     width: 54px;
     height: 95px;
-    /*animation: hand_with_coffee 4s ease infinite;*/
-    /*animation-delay: 0s;*/
+    transform: rotate(5deg);
+    transform-origin: 0 0 0;
+    animation: leg 11s ease infinite;
+    animation-delay: 0s;
 }
 
 /*END styles for animated section in the header*/
+
+
