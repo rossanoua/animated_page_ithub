@@ -1,4 +1,23 @@
 @keyframes hand_with_coffee {
-    0%{}
-    100%{}
+    0%{transform: rotate(39deg); }
+    75%{transform: rotate(39deg); }
+    90%{transform: rotate(-26deg);}
+    100%{transform: rotate(39deg); }
+}
+
+@keyframes some_very_important_document {
+    0%{transform: rotateY(0deg);}
+    75%{transform: rotateY(0deg);}
+    90%{transform: rotateY(35deg);}
+    100%{transform: rotateY(0deg);}
+}
+
+
+
+
+@keyframes blue_head {
+    0%{transform: rotateY(0deg);}
+    75%{transform: rotateY(0deg);}
+    90%{transform: rotateY(35deg);}
+    100%{transform: rotateY(0deg);}
 }

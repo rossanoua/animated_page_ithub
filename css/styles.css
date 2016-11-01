@@ -1,3 +1,5 @@
+@import url('keyframes.css');
+
 body{
     margin: 0;
     padding: 0;
@@ -97,9 +99,7 @@ header {
 }
 
 
-/*END styles for animated section in the header*/
-
-@import "keyframes.css";
+/*START styles for animated section in the header*/
 
 .work_team {
     display: block;
@@ -122,15 +122,15 @@ header {
 
 .hand_with_coffee{
     position: relative;
-    top: -195px;
-    left: 83px;
+    top: -200px;
+    left: 85px;
     background: rgba(0, 0, 0, 0) url("../img/work_team/hand_with_coffee.png") no-repeat scroll 0 0;
-    width:62px;
+    width: 43px;
     height: 65px;
     z-index: 5;
-    /*animation: hand_with_coffee 4s ease infinite;*/
-    /*animation-fill-mode: forwards;*/
-    /*animation-delay: 0s;*/
+    animation: hand_with_coffee 28s ease infinite;
+    transform-origin: 8px 55px 0;
+    animation-delay: 0s;
 }
 
 .some_very_important_document{
@@ -141,19 +141,17 @@ header {
     width: 41px;
     height: 36px;
     z-index: 3;
-    /*animation: hand_with_coffee 4s ease infinite;*/
-    /*animation-fill-mode: forwards;*/
-    /*animation-delay: 0s;*/
+    animation: some_very_important_document 15s ease infinite;
+    animation-delay: 5s;
 }
 
-.blue_head{
+.rufous_head{
     position: relative;
-    top: -336px;
-    left: 439px;
-    background: rgba(0, 0, 0, 0) url("../img/work_team/blue_head.png") no-repeat scroll 0 0;
-    width: 46px;
-    height: 46px;
-    z-index: 166;
+    top: -431px;
+    left: 196px;
+    background: rgba(0, 0, 0, 0) url("../img/work_team/rufous_head.png") no-repeat scroll 0 0;
+    width: 45px;
+    height: 53px;
     /*animation: hand_with_coffee 4s ease infinite;*/
     /*animation-fill-mode: forwards;*/
     /*animation-delay: 0s;*/
@@ -209,13 +207,14 @@ header {
     /*animation-delay: 0s;*/
 }
 
-.rufous_head{
+.blue_head{
     position: relative;
-    top: -742px;
-    left: 197px;
-    background: rgba(0, 0, 0, 0) url("../img/work_team/rufous_head.png") no-repeat scroll 0 0;
-    width: 45px;
-    height: 53px;
+    top: -654px;
+    left: 439px;
+    background: rgba(0, 0, 0, 0) url("../img/work_team/blue_head.png") no-repeat scroll 0 0;
+    width: 46px;
+    height: 46px;
+    z-index: 166;
     /*animation: hand_with_coffee 4s ease infinite;*/
     /*animation-fill-mode: forwards;*/
     /*animation-delay: 0s;*/
